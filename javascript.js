@@ -1,4 +1,3 @@
-document.write("Hello World");
 document.getElementById("boxModel").innerHTML = "Hello World";
 
 function show() { 
