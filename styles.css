@@ -8,6 +8,10 @@ p.firstParagraph{
     color:yellow;
 }
 
+p{
+    color: lightgreen;
+}
+
 a:hover{
     color: hotpink;
 }
