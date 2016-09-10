@@ -1,11 +1,11 @@
 h1{
-    color: yellow;
+    color: darkslateblue;
     font-size: 60px;
     background-color: #b0c4de;
 }
 
 p.firstParagraph{
-    color:red;
+    color:yellow;
 }
 
 a:hover{
@@ -13,9 +13,9 @@ a:hover{
 }
 
 #boxModel{
-    background-color: lightgrey;
+    background-color: deeppink;
     width: 300px;
-    border: 25px solid purple;
+    border: 25px solid orange;
     padding: 25px;
     margin: 25px;
 }
