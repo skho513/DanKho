@@ -40,7 +40,7 @@ a:hover{
     margin: 25px;
 }
 
-html{
+body{
     background-image: url("cafeimage.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
