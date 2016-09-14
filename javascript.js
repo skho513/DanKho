@@ -1,12 +1,3 @@
-document.getElementById("boxModel").innerHTML = "Hello World";
-
-function show() { 
-    document.getElementById("demoButton").innerHTML=Date();
-    RandomWord();
-    RandomwWordComplete();
-    
-} 
-    
 function RandomWord() {
         var requestStr = "http://randomword.setgetgo.com/get.php";
 
