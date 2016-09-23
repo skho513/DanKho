@@ -1,31 +1,37 @@
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   /* background: url(../css/bg.jpg) no-repeat center center scroll; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+/* About */
+
+.about {
+    padding: 50px 0;
+}
+
 h1{
-    color: darkslateblue;
-    font-size: 60px;
-    background-color: #b0c4de;
-}
-
-h2{
-    color: firebrick;
-}
-
-ol{
-    color: gold;
-}
-
-ul{
-    color: sandybrown;
-}
-
-h3{
-    color: chocolate;
-}
-
-p.firstParagraph{
-    color:yellow;
-}
-
-p{
-    color: lightgreen;
+       font-size: 5px; 
+     /*  background-color: transparent;*/
 }
 
 a:hover{
@@ -41,7 +47,7 @@ a:hover{
 }
 
 body{
-    background-image: url("cafeimage.jpg");
+    background-image: url("../css/bg.jpg"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -53,22 +59,37 @@ body{
                 padding: 0;
             }
 
-            #cafechef{
+           /* #cafechef{
                 width: 100%;
                 height: 100%;
             }
 
-            #sub_img{
+           #sub_img{
                 width: 20%;
                 position: absolute;
                 left: 1000px;
                 top: 200px;
                 z-index: -1;
                 opacity: 0.5;
-            }
+            }*/
 
             #content{
                 width: 100%;
                 height: 100%;
                 position: relative;
             }
+            /* Map */
+
+.map {
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
+.map iframe {
+    pointer-events: none;
+}
